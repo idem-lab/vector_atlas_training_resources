@@ -38,5 +38,17 @@ https://rspatial.org/sdm/index.html
 
 #### Boosted regression trees
 
+vomit of resource links to tidy later
+https://r4ds.had.co.nz
+
+https://posit.co/resources/videos/a-gentle-introduction-to-tidy-statistics-in-r/
+
+https://moderndive.netlify.app/1-getting-started.html
+
+https://education.rstudio.com/learn/beginner/
+
+https://ggplot2-book.org
+
+https://adv-r.hadley.nz
 
 
