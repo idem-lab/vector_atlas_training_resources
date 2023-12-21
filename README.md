@@ -1,17 +1,27 @@
 [![Vector Atlas](images/vector-atlas-logo.png)](https://vectoratlas.icipe.org)
 
-
-# \
+  \
+  \
+  
 # Training resources hub [IN DEVELOPMENT]
 
-This repository contains linkages to a curated set of free online resources for self-directed and mentored learning on data management, visualisation, basic spatial analysis and presentation, and modelling of mosquito disease vectors, tailored to collaborators of the **Vector Atlas**.
+This repository contains linkages to a curated set of free online resources for self-directed and mentored learning on data management, visualisation, basic spatial analysis and presentation, and modelling of mosquito disease vectors, tailored to collaborators of the **Vector Atlas**.  
 
-## Data management, manipulation, and presentation
+The repository is roughly in order from introductory to more advanced, and the though each item is not necessarily a prerequisite for those that follow.
+  \
 
-### The R Language
+## Data management, manipulation, and presentation in R
+
+#### Introductory R resources
+
+https://posit.co/resources/videos/a-gentle-introduction-to-tidy-statistics-in-r/
+
+https://moderndive.netlify.app/1-getting-started.html
+
+https://education.rstudio.com/learn/beginner/
 
 #### R Programming
-Roger D. Peng
+*Roger D. Peng*
 
 [https://www.coursera.org/learn/r-programming](https://www.coursera.org/learn/r-programming)
 
@@ -28,13 +38,19 @@ https://rspatial.org/spatial/index.html#
 
 ## Species distribution modelling 
 
-#### Species distriubtion modelling for vectors course
-Golding and Ryan
-https://github.com/geryan/vector_sdm_course
 
 ####  Species distribution modelling 
-Hijmans and Elith
-https://rspatial.org/sdm/index.html
+*Robert Hijmans and Jane Elith*
+
+[https://rspatial.org/sdm/index.html](https://rspatial.org/sdm/index.html)
+
+
+#### Species distriubtion modelling for vectors course
+*Nick Golding and Gerry Ryan*
+
+[https://github.com/idem-lab/vector_sdm_course](https://github.com/idem-lab/vector_sdm_course)
+
+
 
 #### Boosted regression trees
 
