@@ -10,9 +10,9 @@ The repository is roughly in order from introductory to more advanced, and the t
 
 We have three broad areas of resources:
 
-- [Data Management, Manipulation, and Presentation in R](# data-management,-manipulation,-and-presentation-in-R)
+- [Data Management, Manipulation, and Presentation in R](#data-management-manipulation-and-presentation-in-r)
 - [Working with Spatial Data](#working-with-spatial-data)
-- [Species Distribution Modelling](#Species Distribution Modelling)  
+- [Species Distribution Modelling](#species-distribution-modelling)  
   
   
 ## Data Management, Manipulation, and Presentation in R
