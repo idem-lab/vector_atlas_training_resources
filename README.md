@@ -2,18 +2,37 @@
 <br>
 <br>
 
-# Training resources hub [IN DEVELOPMENT]
+# Vector Atlas Training resources hub
 
-This repository contains linkages to a curated set of **free** online resources for self-directed and mentored learning on data management, visualisation, basic spatial analysis and presentation, and modelling of mosquito disease vectors, tailored to collaborators of the **Vector Atlas**.
+This repository contains linkages to a curated set of **free** online resources for self-directed and mentored learning on data management, visualisation, basic spatial analysis and presentation, and modelling of mosquito disease vectors, tailored to collaborators of the **Vector Atlas**. Most of these resources contain exercises you can do yourself along with the materials --- the hub is heavy on practical materials.
 
 The repository is roughly in order from introductory to more advanced, and the though each item is not necessarily a prerequisite for those that follow.  
 
-We have three broad areas of resources:
+#### Resources:
 
 - [Data Management, Manipulation, and Presentation in R](#data-management-manipulation-and-presentation-in-r)
+  - [Introductory R Resources](#introductory-r-resources)
+      - [A Gentle Introduction to Tidy Statistics in R](#a-gentle-introduction-to-tidy-statistics-in-R)
+      - [Getting Started with Data in R](#getting-started-with-data-in-r)
+      - [RStudio Education](#rstudio-education)
+  - [Further R Learning](#further-r-learning)
+      - [R for Data Science](#r-for-data-science-2nd-edition)
+      - [R Programming](#r-programming)
+      - [Advanced R](#advanced-r)
+  - [Data Presentation](#data-presentaition)
+      - [Data Visualization: a Practical Introduction](#data-visualization-a-practical-introduction)
+      - [ggplot2: Elegant Graphics for Data Analysis](#ggplot2-elegant-graphics-for-data-analysis-3rd-edition)
 - [Working with Spatial Data](#working-with-spatial-data)
-- [Species Distribution Modelling](#species-distribution-modelling)  
-  
+  - [Spatial Data in R](#spatial-data-in-r)
+      - [Spatial Data with `terra`](#spatial-data-with-terra)
+      - [Simple Features for R](#simple-features-for-r)
+  - [Spatial Data in QGIS](#spatial-data-in-qgis)
+- [Modelling Species' Distributions](#modelling-species-distributions)
+  - [Species Distribution Modelling](#species-distribution-modelling)
+  - [Species Distribution Modelling for Vectors Course](#species-distribution-modelling-for-vectors-cours)
+  - [Boosted Regression Trees](#boosted-regression-trees)
+
+<br>
   
 ## Data Management, Manipulation, and Presentation in R
 
@@ -33,12 +52,11 @@ This is a great starting point for learning about R. 1--hour video introduction 
 
 Step-by-step written introduction to getting started using R. This takes you through installing R and RStudio, some introductory concepts. Page is the first part of a longer [ebook that is also freely available](https://moderndive.netlify.app) and will walk you through further stages of learning to use R to produce graphs and basic statistical analyses. 
   
-
-
+ 
 #### RStudio Education
 <https://education.rstudio.com>
 
-A series of links to educational resources curated by RStudio --- from beginner, to intermediate, to more advanced topics.  
+A series of links to educational resources curated by RStudio --- from beginner, to intermediate, and more advanced topics.  
   
 
 ### Further R learning
@@ -59,42 +77,72 @@ This is a popular R introductory to intermediate course and is free on Coursera 
 *Hadley Wickham* <https://adv-r.hadley.nz>
 
 This book is for users of R ready to advance toward and beyond an intermediate level, through a deeper understanding of the functioning of the R language, and advanced functional programming and beyond. 
+  
 
 ### Data presentation
 
-#### Data Visualization: A practical introduction
+#### Data Visualization: A Practical Introduction
 *Kieran Healy* <https://socviz.co/>
 
 An excellent transition from the very basics of making your first plots in R, through to advanced consideration of how to and why to use plots do best communicate your data, to advanced methods for tuning graphics.  
   
+
+#### ggplot2: Elegant Graphics for Data Analysis (3<sup>rd</sup> edition)
+*Hadley Wickham* <https://ggplot2-book.org>
+
+A walk-through of how to produce graphics in R using the popular `ggplot2` package. This book can be read as a learning resource, or used as a reference manual for working out specific problems or plot types.
   
-
-
-<https://ggplot2-book.org>
 
 ## Working with spatial data
 
+### Spatial Data in R
+
 #### Spatial data with `terra`
+*Robert Hijmans and others* <https://rspatial.org/spatial/index.html#>
 
-<https://rspatial.org/spatial/index.html#>
+The `terra` package is the most powerful modern method to work with raster data in R (and replaces the deprecated `raster` package), and can also be used with vector* data. This is a step-through guide to working with spatial data using `terra`. For a broader introduction to spatial data in R, this page forms just one section of [rspatial.org](https://rspatial.org), which has a wider range of resources that may be helpful for beginners in spatial data science.
 
-### 
+\**In this context we mean vector as a [spatial vector data, i.e., points, lines, polygons](https://gisgeography.com/spatial-data-types-vector-raster/), not vector as in disease vector like mosquito.*
 
-## Species Distribution Modelling
+#### Simple Features for R
+*Edzer Pebesma* <https://r-spatial.github.io/sf/articles/sf1.html>
 
-#### Species distribution modelling
+The `sf` or Simple Features package is another powerful modern tool for working with vector data in R. This guide explains what simple features are and the fundamentals of how the package works, but also [links to a series of increasingly detailed articles](https://r-spatial.github.io/sf/articles/) on the use of `sf`, as well as the package reference manual.  
+  
 
-*Robert Hijmans and Jane Elith*
+### Spatial Data in QGIS
+<https://docs.qgis.org/3.28/en/docs/user_manual/introduction/getting_started.html>
 
-<https://rspatial.org/sdm/index.html>
+QGIS is a free, open-source, and well supported Geographic Information System in which users can manipulate and analyse spatial vector and raster data. This Getting Started article steps the user through installation and basic loading of data. It forms Chapter 5 of the full [QGIS User Guide](https://docs.qgis.org/3.28/en/docs/user_manual/index.html)
 
-#### Species distriubtion modelling for vectors course
+While analysis of spatial data in R is generally our recommendation because it is easily repeatable and modifiable, this does need the overhead of skill development to use R effectively, which may not always be practical for all users. QGIS is an excellent tool for quick plotting and exploration of spatial data and will suit many user needs.
+  
 
-*Nick Golding and Gerry Ryan*
+## Modelling Species' Distributions
+  
+#### Species Distribution Modelling
+*Robert Hijmans and Jane Elith* <https://rspatial.org/sdm/index.html>
 
-<https://github.com/idem-lab/vector_sdm_course>
+A step-by-step guide to learn many good habits for species distribution modelling and how to practically do so in R, written in by leading lights in the field. This guide takes you through all steps from the basic concepts, to data collection and preparation, to model fitting, evaluation and prediction.
 
-#### Boosted regression trees
+The modelling method used in this guide is a relatively simple Generalised Linear Model, however the workflow that the guide teaches is vital to master before using other methods.
+  
+
+#### Species Distriubtion Modelling for Vectors Course
+*Nick Golding and Gerry Ryan* <https://github.com/idem-lab/vector_sdm_course>
+
+Yes --- here we mean disease vectors, not spatial ones. This course is intended to be taught in person, and is focussed on developing understanding of key concepts around data biases and how they apply in particular to modelling the distribution of vectors. The course covers a range of modelling methods such as GLMs, MaxEnt, and Multispecies Poisson Point-Process models.
+
+Although users may follow the course materials using the broad course outline at present, it is intended that this course will be updated to make it easier to follow-through independantly, or with in-person instruction.
 
 
+#### Boosted Regression Trees
+*Jane Elith and John Leathwick* <https://rspatial.org/raster/sdm/9_sdm_brt.html>
 
+Boosted Regression Trees (BRTs) are a powerful method for fitting non-linear interacting relationships, including for modelling species' distributions. This is a guide to fitting BRTs using the `dismo` package in R. This guide is a companion to the very accessible journal articale [A Working Guide to Boosted Regression Trees](https://doi.org/10.1111/j.1365-2656.2008.01390.x), and jives well with the code from the Hijmans and Elith guide listed above. NB: the code in the final section, [Spatial Prediction](https://rspatial.org/raster/sdm/9_sdm_brt.html#spatial-prediction), is based on the deprecated `raster` package. It should work largely as-is by replacing `raster` with `terra` in the code.
+
+
+[![Vector Atlas](images/vector-atlas-logo.png)](https://vectoratlas.icipe.org)
+<br>
+
+This page maintained by Gerry Ryan on behalf of the Vector Atlas. Please [post an issue](https://github.com/idem-lab/vector_atlas_training_resources/issues) if there are problems with the page or questions.
