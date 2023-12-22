@@ -4,7 +4,11 @@
 
 # Vector Atlas Training resources hub
 
-This repository contains linkages to a curated set of **free** online resources for self-directed and mentored learning on data management, visualisation, basic spatial analysis and presentation, and modelling of mosquito disease vectors, tailored to collaborators of the **Vector Atlas**. Most of these resources contain exercises you can do yourself along with the materials --- the hub is heavy on practical materials.
+This repository contains linkages to a curated set of **free** online resources for self-directed and mentored learning on data management, visualisation, basic spatial analysis and presentation, and modelling of mosquito disease vectors, tailored to collaborators of the **Vector Atlas**.
+
+Most of these resources contain exercises you can do yourself along with the materials --- the hub is heavy on practical materials.
+
+The **Vector Atlas** has no oversight of the linked resources and takes no responsibility for their content --- the list is intended only as a courtesy to our collaborators.
 
 The repository is roughly in order from introductory to more advanced, and the though each item is not necessarily a prerequisite for those that follow.  
 
@@ -145,4 +149,4 @@ Boosted Regression Trees (BRTs) are a powerful method for fitting non-linear int
 [![Vector Atlas](images/vector-atlas-logo.png)](https://vectoratlas.icipe.org)
 <br>
 
-This page maintained by Gerry Ryan on behalf of the Vector Atlas. Please [post an issue](https://github.com/idem-lab/vector_atlas_training_resources/issues) if there are problems with the page or questions.
+This page maintained by Gerry Ryan on behalf of the **Vector Atlas**. Please [post an issue](https://github.com/idem-lab/vector_atlas_training_resources/issues) if there are problems with the page or links are dead.
