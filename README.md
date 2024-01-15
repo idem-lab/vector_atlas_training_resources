@@ -4,9 +4,9 @@
 
 This repository contains linkages to a curated set of **free** online resources for self-directed and mentored learning on data management, visualisation, basic spatial analysis and presentation, and modelling of mosquito disease vectors, tailored to collaborators of the **Vector Atlas**.
 
-Most of these resources contain exercises you can do yourself along with the materials --- the hub is heavy on practical materials.
+Most of these resources contain exercises you can do yourself along with the materials — the hub is heavy on practical materials.
 
-The **Vector Atlas** has no oversight of the linked resources and takes no responsibility for their content --- the list is intended only as a courtesy to our collaborators
+The **Vector Atlas** has no oversight of the linked resources and takes no responsibility for their content — the list is intended only as a courtesy to our collaborators
 
 The repository is roughly in order from introductory to more advanced, and the though each item is not necessarily a prerequisite for those that follow.
 
@@ -109,7 +109,7 @@ Step-by-step written introduction to getting started using R. This takes you thr
 
 <https://education.rstudio.com>
 
-A series of links to educational resources curated by RStudio --- from beginner, to intermediate, and more advanced topics.
+A series of links to educational resources curated by RStudio — from beginner, to intermediate, and more advanced topics.
 
 ### Further R learning {#further-r-learning}
 
@@ -117,7 +117,7 @@ A series of links to educational resources curated by RStudio --- from beginner,
 
 *Hadley Wickham* <https://r4ds.hadley.nz>
 
-This free ebook is a comprehensive guide to developing modern data science skills in R. It covers a wide range of methods for dealing with data --- reading, writing, transforming, manipulating, and visualising. It does not teach modelling, but it does teach a range of foundational skills needed to get data into and out of models. This text also covers the `tidyverse` paackage, which is a ubiquitous group of R packages that have a consistent style of programming that is different from basic R, but widely considered more user-friendly.
+This free ebook is a comprehensive guide to developing modern data science skills in R. It covers a wide range of methods for dealing with data — reading, writing, transforming, manipulating, and visualising. It does not teach modelling, but it does teach a range of foundational skills needed to get data into and out of models. This text also covers the `tidyverse` paackage, which is a ubiquitous group of R packages that have a consistent style of programming that is different from basic R, but widely considered more user-friendly.
 
 #### R Programming {#r-programming}
 
@@ -195,7 +195,7 @@ The modelling method used in this guide is a relatively simple Generalised Linea
 
 *Nick Golding and Gerry Ryan* <https://github.com/idem-lab/vector_sdm_course>
 
-*Yes --- here we mean disease vectors, not spatial ones*. This course is intended to be taught in person, and is focussed on developing understanding of key concepts around data biases and how they apply in particular to modelling the distribution of vectors. The course covers a range of modelling methods such as GLMs, MaxEnt, and Multispecies Poisson Point-Process models.
+*Yes — here we mean disease vectors, not spatial ones*. This course is intended to be taught in person, and is focussed on developing understanding of key concepts around data biases and how they apply in particular to modelling the distribution of vectors. The course covers a range of modelling methods such as GLMs, MaxEnt, and Multispecies Poisson Point-Process models.
 
 Although users may follow the course materials using the [broad course outline](https://github.com/idem-lab/vector_sdm_course/blob/master/course_structure.md) at present, we intend to update materials make it easier to follow-through independently as well.
 
