@@ -60,9 +60,9 @@ The repository is roughly in order from introductory to more advanced, and the t
 
 <br>
 
-## Data Management, Manipulation, and Presentation in R {#data-management-manipulation-and-presentation-in-r}
+## Data Management, Manipulation, and Presentation in R
 
-### Introduction to Spatial Analysis for Infectious Diseases {#introduction-to-spatial-analysis-for-infectious-diseases}
+### Introduction to Spatial Analysis for Infectious Diseases
 
 *Malaria Atlas Project* <http://malariaatlas.org/training>
 
@@ -72,11 +72,11 @@ The best place to begin is on the home page ([Before We Get Started](https://mal
 
 There are separate tutorials on:
 
-#### Data management {#data-management}
+#### Data management
 
 <https://malaria-atlas-project.gitlab.io/intro-to-spatial-analysis-for-infectious-diseases/01_datamanagement.html>
 
-#### Data Handling and Visualisation in R {#data-handling-and-visualisation-in-r}
+#### Data Handling and Visualisation in R
 
 <https://malaria-atlas-project.gitlab.io/intro-to-spatial-analysis-for-infectious-diseases/02_datahandling.html>
 
