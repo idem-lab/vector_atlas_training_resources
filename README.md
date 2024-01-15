@@ -8,7 +8,7 @@ This repository contains linkages to a curated set of **free** online resources 
 
 Most of these resources contain exercises you can do yourself along with the materials &mdash; the hub is heavy on practical materials.
 
-The **Vector Atlas** has no oversight of the linked resources and takes no responsibility for their — content &mdash; the list is intended only as a courtesy to our collaborators
+The **Vector Atlas** has no oversight of the linked resources and takes no responsibility for their content &mdash; the list is intended only as a courtesy to our collaborators
 
 The repository is roughly in order from introductory to more advanced, and the though each item is not necessarily a prerequisite for those that follow.  
 
