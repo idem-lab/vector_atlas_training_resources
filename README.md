@@ -133,13 +133,13 @@ This book is for users of R ready to advance toward and beyond an intermediate l
 
 ### Data presentation
 
-#### Data Visualization: A Practical Introduction {#data-visualization-a-practical-introduction}
+#### Data Visualization: A Practical Introduction
 
 *Kieran Healy* <https://socviz.co/>
 
 An excellent transition from the very basics of making your first plots in R, through to advanced consideration of how to and why to use plots do best communicate your data, to advanced methods for tuning graphics.
 
-#### ggplot2: Elegant Graphics for Data Analysis (3<sup>rd</sup> edition) {#ggplot2-elegant-graphics-for-data-analysis-3rd-edition}
+#### ggplot2: Elegant Graphics for Data Analysis (3<sup>rd</sup> edition)
 
 *Hadley Wickham* <https://ggplot2-book.org>
 
