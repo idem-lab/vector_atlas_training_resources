@@ -80,46 +80,46 @@ There are separate tutorials on:
 
 <https://malaria-atlas-project.gitlab.io/intro-to-spatial-analysis-for-infectious-diseases/02_datahandling.html>
 
-#### Spatial Data in QGIS (MAP) {#spatial-data-in-qgis-map}
+#### Spatial Data in QGIS (MAP)
 
 <https://malaria-atlas-project.gitlab.io/intro-to-spatial-analysis-for-infectious-diseases/03_QGIS.html>
 
-#### Spatial Data in R (MAP) {#spatial-data-in-r-map}
+#### Spatial Data in R (MAP)
 
 <https://malaria-atlas-project.gitlab.io/intro-to-spatial-analysis-for-infectious-diseases/04_spatial_in_R.html>
 
-### Introductory R resources {#introductory-r-resources}
+### Introductory R resources
 
 We recommend R as a tool for the analysis of data. It is free, widely used, has many learning and support resources available, and can be very powerful. R is a programming-language based tool that does require a degree of up-front investment of time in learning to produce results and comfortably use the tool. For people who regularly want to manipulate or analyse data, and produce graphics, we suggest that this may be a worthwhile investment. We also produce R-based resources through our work in the Vector Atlas that can be easily reused and repurposed toward collaborators' specific needs.
 
-#### A Gentle Introduction to Tidy Statistics in R {#a-gentle-introduction-to-tidy-statistics-in-r}
+#### A Gentle Introduction to Tidy Statistics in R
 
 *Thomas Mock* <https://posit.co/resources/videos/a-gentle-introduction-to-tidy-statistics-in-r/>
 
 This is a great starting point for learning about R. 1--hour video introduction to why and how you might do data analyses in R, and to how the whole system works (R, RStudio, packages). This is *not* an introduction to statistics, but an introduction to how to do some things in R. The slides are available on a linked github page - look for the pdf on that link. There is also a (slightly older) [blog version of the video here](https://themockup.netlify.app/posts/2018-12-10-a-gentle-guide-to-tidy-statistics-in-r/).\
 *We strongly recommend to setting the video quality to the highest available so that you can clearly see the code in the video. This can be done by clicking the settings cog in the bottom-right of the video panel, and selecting Quality to 1080p.*
 
-#### Getting Started with Data in R {#getting-started-with-data-in-r}
+#### Getting Started with Data in R
 
 *Chester Ismay and Albert Y. Kim* <https://moderndive.netlify.app/1-getting-started.html>
 
 Step-by-step written introduction to getting started using R. This takes you through installing R and RStudio, some introductory concepts. This page is the first part of a longer [ebook that is also freely available](https://moderndive.netlify.app) and will walk you through further stages of learning to use R to produce graphs and basic statistical analyses.
 
-#### RStudio Education {#rstudio-education}
+#### RStudio Education
 
 <https://education.rstudio.com>
 
 A series of links to educational resources curated by RStudio — from beginner, to intermediate, and more advanced topics.
 
-### Further R learning {#further-r-learning}
+### Further R learning
 
-#### R for data science (2<sup>nd</sup> edition) {#r-for-data-science-2nd-edition}
+#### R for data science (2<sup>nd</sup> edition)
 
 *Hadley Wickham* <https://r4ds.hadley.nz>
 
 This free ebook is a comprehensive guide to developing modern data science skills in R. It covers a wide range of methods for dealing with data — reading, writing, transforming, manipulating, and visualising. It does not teach modelling, but it does teach a range of foundational skills needed to get data into and out of models. This text also covers the `tidyverse` paackage, which is a ubiquitous group of R packages that have a consistent style of programming that is different from basic R, but widely considered more user-friendly.
 
-#### R Programming {#r-programming}
+#### R Programming
 
 *Roger D. Peng* <https://www.coursera.org/learn/r-programming>
 
@@ -145,15 +145,15 @@ An excellent transition from the very basics of making your first plots in R, th
 
 A walk-through of how to produce graphics in R using the popular `ggplot2` package. This book can be read as a learning resource, or used as a reference manual for working out specific problems or plot types.
 
-## Working with spatial data {#working-with-spatial-data}
+## Working with spatial data
 
-### Spatial Data in R {#spatial-data-in-r}
+### Spatial Data in R
 
 #### Spatial Data in R (MAP)
 
 [Spatial Data in R (MAP)](#spatial-data-in-r-map)
 
-#### Spatial data with `terra` {#spatial-data-with-terra}
+#### Spatial data with `terra`
 
 *Robert Hijmans and others* <https://rspatial.org/spatial/index.html#>
 
@@ -161,19 +161,19 @@ The `terra` package is the most powerful modern method to work with raster data 
 
 \**In this context we mean vector as a [spatial data form, i.e., points, lines, polygons](https://gisgeography.com/spatial-data-types-vector-raster/), not vector as in disease vector like mosquito.*
 
-#### Simple Features for R {#simple-features-for-r}
+#### Simple Features for R
 
 *Edzer Pebesma* <https://r-spatial.github.io/sf/articles/sf1.html>
 
 The `sf` or Simple Features package is another powerful modern tool for working with vector\* data in R. This guide explains what simple features are and the fundamentals of how the package works, but also [links to a series of increasingly detailed articles](https://r-spatial.github.io/sf/articles/) on the use of `sf`, as well as the package reference manual.
 
-### Spatial Data in QGIS {#spatial-data-in-qgis}
+### Spatial Data in QGIS
 
 #### Spatial Data in QGIS (MAP)
 
 [Spatial Data in QGIS (MAP)](#spatial-data-in-qgis-map)
 
-#### Spatial Data in QGIS (QGIS) {#spatial-data-in-qgis-qgis}
+#### Spatial Data in QGIS (QGIS)
 
 <https://docs.qgis.org/3.28/en/docs/user_manual/introduction/getting_started.html>
 
@@ -181,9 +181,9 @@ QGIS is a free, open-source, and well supported Geographic Information System in
 
 While analysis of spatial data in R is generally our recommendation because it is easily repeatable and modifiable, this does need the overhead of skill development to use R effectively, which may not always be practical for all users. QGIS is an excellent tool for quick plotting and exploration of spatial data and will suit many user needs.
 
-## Modelling Species' Distributions {#modelling-species-distributions}
+## Modelling Species' Distributions
 
-#### Species Distribution Modelling {#species-distribution-modelling}
+#### Species Distribution Modelling
 
 *Robert Hijmans and Jane Elith* <https://rspatial.org/sdm/index.html>
 
@@ -199,13 +199,13 @@ The modelling method used in this guide is a relatively simple Generalised Linea
 
 Although users may follow the course materials using the [broad course outline](https://github.com/idem-lab/vector_sdm_course/blob/master/course_structure.md) at present, we intend to update materials make it easier to follow-through independently as well.
 
-#### Boosted Regression Trees {#boosted-regression-trees}
+#### Boosted Regression Trees
 
 *Jane Elith and John Leathwick* <https://rspatial.org/raster/sdm/9_sdm_brt.html>
 
 Boosted Regression Trees (BRTs) are a powerful method for fitting non-linear interacting relationships, including for modelling species' distributions. This is a guide to fitting BRTs using the `dismo` package in R. This guide is a companion to the very accessible journal articale [A Working Guide to Boosted Regression Trees](https://doi.org/10.1111/j.1365-2656.2008.01390.x), and jives well with the code from the Hijmans and Elith guide listed above. NB: the code in the final section, [Spatial Prediction](https://rspatial.org/raster/sdm/9_sdm_brt.html#spatial-prediction), is based on the deprecated `raster` package. It should work largely as-is by replacing `raster` with `terra` in the code.
 
-#### Questions? {#questions}
+#### Questions?
 
 This page maintained by Gerry Ryan on behalf of the **Vector Atlas**.
 
