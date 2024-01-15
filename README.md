@@ -159,7 +159,7 @@ A walk-through of how to produce graphics in R using the popular `ggplot2` packa
 
 The `terra` package is the most powerful modern method to work with raster data in R (and replaces the deprecated `raster` package), and can also be used with vector\* data. This is a step-through guide to working with spatial data using `terra`. For a broader introduction to spatial data in R, this page forms just one section of [rspatial.org](https://rspatial.org), which has a wider range of resources that may be helpful for beginners in spatial data science.
 
-\**In this context we mean vector as a [spatial data form, i.e., points, lines, polygons](https://gisgeography.com/spatial-data-types-vector-raster/), not vector as in disease vector like mosquito.*
+\**Where we indicate * vector\* *with a *\* *we mean vector as a [spatial data form, i.e., points, lines, polygons](https://gisgeography.com/spatial-data-types-vector-raster/), not vector as in disease vector like a mosquito.*
 
 #### Simple Features for R
 
