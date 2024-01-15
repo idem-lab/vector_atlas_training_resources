@@ -211,6 +211,6 @@ This page maintained by Gerry Ryan on behalf of the **Vector Atlas**.
 
 If there are problems with the page or links are dead, please [post an issue](https://github.com/idem-lab/vector_atlas_training_resources/issues).
 
-Other questions? Please contact us at [vector.atlas\@biology.ox.ac.uk](mailto:vector.atlas@biology.ox.ac.uk){.email}
+Other questions? Please contact us at [vector.atlas\@biology.ox.ac.uk](mailto:vector.atlas@biology.ox.ac.uk).
 
 [![Vector Atlas](images/vector-atlas-logo.png)](https://vectoratlas.icipe.org) <br>
