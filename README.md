@@ -58,6 +58,17 @@ The repository is roughly in order from introductory to more advanced, and the t
 -   [Species Distribution Modelling for Vectors Course](#species-distribution-modelling-for-vectors-cours)
 -   [Boosted Regression Trees](#boosted-regression-trees)
 
+[**Code management**](#code-management)
+
+[*Version control with git in RStudio*](#version-control-with-git-in-RStudio)
+
+-   [Happy Git and GitHub for the useR](#happy-git-and-github-for-the-user)
+
+[*Version control with git --- any platform*](#version-control-with-git-----any-platform)
+
+-   [Git is my lab book](#git-is-my-lab-book)
+
+
 <br>
 
 ## Data Management, Manipulation, and Presentation in R
@@ -204,6 +215,34 @@ Although users may follow the course materials using the [broad course outline](
 *Jane Elith and John Leathwick* <https://rspatial.org/raster/sdm/9_sdm_brt.html>
 
 Boosted Regression Trees (BRTs) are a powerful method for fitting non-linear interacting relationships, including for modelling species' distributions. This is a guide to fitting BRTs using the `dismo` package in R. This guide is a companion to the very accessible journal articale [A Working Guide to Boosted Regression Trees](https://doi.org/10.1111/j.1365-2656.2008.01390.x), and jives well with the code from the Hijmans and Elith guide listed above. NB: the code in the final section, [Spatial Prediction](https://rspatial.org/raster/sdm/9_sdm_brt.html#spatial-prediction), is based on the deprecated `raster` package. It should work largely as-is by replacing `raster` with `terra` in the code.
+
+## Code management
+
+So you've written some code, now you want to make sure you manage it in a way that allows you to not be overwhelmed.
+
+You save your file `script.R`. Then you make some changes but you want to keep the other one just in case, so you have `script2.R`. You make more changes, try some other things, and eventually you have 27 scripts up to `copy_script9_alternate_with_other_plots2.R`
+
+Instead you can use version control to manage this process, keep annotated records of changes and *control* the *version* you are using. This is called version control.
+
+The most common contemporary method is using software called [git](https://git-scm.com) to keep track of changes and allow you to go back in time as needs be.
+
+Git is usually also connected to a cloud service like [GitHub](https://github.com), [GitLab](https://about.gitlab.com), or [Bitbucket](https://bitbucket.org), which allows users to back up code remotely for additional security and allowing easy collaboration on projects.
+
+### Version control with git in RStudio
+
+#### Happy Git and GitHub for the useR
+
+*Jenny Bryan* <https://happygitwithr.com>
+
+A great starting point for version control for users of R in RStudio and GitHub --- this will have you up and running in no time. Much of the principles and processes will work for other git cloud development platforms as well (gitlab or bitbucket).
+
+### Version control with git --- any platform
+
+#### Git is my lab book
+
+*Rob Moss and support acts* <https://git-is-my-lab-book.net/>
+
+This is a general guide to using git, and takes you though some of the processes of managing code in git, though primarily through the command line / terminal using direct git commands. Consider starting with the [Topical Guides](https://git-is-my-lab-book.net/guides/). Written by some collaborators at the University of Melbourne.
 
 #### Questions?
 
