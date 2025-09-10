@@ -34,6 +34,7 @@ The repository is roughly in order from introductory to more advanced, and the t
 -   [R for Data Science](#r-for-data-science-2nd-edition)
 -   [R Programming](#r-programming)
 -   [Advanced R](#advanced-r)
+-   [R Packages](#r-packages)
 
 [**Data Presentation**](#data-presentaition)
 
@@ -136,11 +137,17 @@ This free ebook is a comprehensive guide to developing modern data science skill
 
 This is a popular R introductory to intermediate course and is free on Coursera from Johns Hopkins University. The course is a comprehensive foundation in fundamentals of base-R, but is a large commitment in time to complete and does not cover a number of modern areas of R-programming like `tidyverse`.
 
-#### Advanced R (2<sup>nd</sup> edition)
+#### Advanced R
 
 *Hadley Wickham* <https://adv-r.hadley.nz>
 
 This book is for users of R ready to advance toward and beyond an intermediate level, through a deeper understanding of the functioning of the R language, and advanced functional programming and beyond.
+
+#### R Packages
+
+*Hadley Wickham and Jennifer Bryan* <https://r-pkgs.org>
+
+A step-by-step guide to smooth package development. Developing your own package to manage tools you regularly use is easier than you think!
 
 ### Data presentation
 
